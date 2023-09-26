@@ -37,7 +37,8 @@ public class LandingPage {
 		for(WebElement type : insuranceType)
 		{
 			type.getText().contains(typeOfInsurance);
-			type.click();		
+			type.click();	
+			break;
 		}
 				
 		/*
